@@ -45,3 +45,4 @@ Using the chain rule and the linear combination rule,
 ```math
 \frac{d J(w, b)}{d b} = \frac{1}{m} \sum\limits_{i=0}^{m-1} (f_{w, b}(x^{(i)}) - y^{(i)}) \tag{5}
 ```
+Using the simplified deritives, we can run the gradient descent algorithm.
