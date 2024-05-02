@@ -2,7 +2,6 @@
 #define GRADIENTDESCENTH
 
 #include <vector>
-#include "gradient_descent.cpp"
 
 class GradientDescent{
     public:
