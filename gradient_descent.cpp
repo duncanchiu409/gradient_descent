@@ -78,7 +78,7 @@ std::vector<double> GradientDescent::gradient_descent(std::vector<double> x, std
         }
 
         if( i % (number_of_iterations/10) == 0){
-            std::cout << "Iteration" << i << ": Cost " << J_history.back() << " dj_dw: " << tmp[0] << " dj_dw: " << tmp[1] << " w: " << w << " b:" << b << std::endl;        
+            std::cout << "Iteration " << i << ": Cost " << J_history.back() << " dj_dw: " << tmp[0] << " dj_dw: " << tmp[1] << " w: " << w << " b:" << b << std::endl;        
         }
     } 
 
