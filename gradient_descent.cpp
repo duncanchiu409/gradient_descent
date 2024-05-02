@@ -56,5 +56,6 @@ std::vector<double> GradientDescent::compute_gradient(std::vector<double> x, std
 
     dj_dw = (double)1 / (double)x_length * dj_dw_i;
     dj_db = (double)1 / (double)x_length * dj_db_i;
+    
     return {dj_dw, dj_db};
 }
